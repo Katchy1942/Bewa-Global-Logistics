@@ -1,4 +1,4 @@
-import { useState, FormEvent } from "react";
+import { useState, type FormEvent } from "react";
 import { HugeiconsIcon } from "@hugeicons/react";
 import {
    Message02Icon,
