@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "tailwindcss";
+
+@theme {
+   --font-suisse-intl: 'Suisse Intl', ui-sans-serif, system-ui, sans-serif;
+   --font-suisse-mono: 'Suisse Intl Mono', ui-monospace, SFMono-Regular, monospace;
+   --font-suisse-neue: 'Suisse Neue', ui-sans-serif, system-ui, sans-serif;
+   --font-suisse-works: 'Suisse Works', ui-serif, Georgia, serif;
+   --font-bebas: 'Bebas Neue', sans-serif;
+}
+
+@layer base {
+   @font-face {
+      font-family: 'Suisse Intl';
+      src: url('/suisse-font-family/SuisseIntlTrial-Light.otf') format('opentype');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Intl';
+      src: url('/suisse-font-family/SuisseIntlTrial-Regular.otf') format('opentype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Intl';
+      src: url('/suisse-font-family/SuisseIntlTrial-Medium.otf') format('opentype');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Intl';
+      src: url('/suisse-font-family/SuisseIntlTrial-Semibold.otf') format('opentype');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Intl';
+      src: url('/suisse-font-family/SuisseIntlTrial-Bold.otf') format('opentype');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Intl Mono';
+      src: url('/suisse-font-family/SuisseIntlMonoTrial-Regular.otf') format('opentype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Intl Mono';
+      src: url('/suisse-font-family/SuisseIntlMonoTrial-Bold.otf') format('opentype');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Neue';
+      src: url('/suisse-font-family/SuisseNeueTrial-Light.otf') format('opentype');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Neue';
+      src: url('/suisse-font-family/SuisseNeueTrial-Regular.otf') format('opentype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Neue';
+      src: url('/suisse-font-family/SuisseNeueTrial-Medium.otf') format('opentype');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Works';
+      src: url('/suisse-font-family/SuisseWorksTrial-Regular.otf') format('opentype');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Works';
+      src: url('/suisse-font-family/SuisseWorksTrial-Medium.otf') format('opentype');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+   }
+
+   @font-face {
+      font-family: 'Suisse Works';
+      src: url('/suisse-font-family/SuisseWorksTrial-Bold.otf') format('opentype');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+   }
+}
+
+body {
+   @apply min-h-screen antialiased bg-[#e9e5e5];
+}

@@ -1,0 +1,4 @@
+Primary Color: #e9e5e5
+Secondary Color: #f00a94
+Accent Color: #bf3287
+Text: #1e2939
