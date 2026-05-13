@@ -55,7 +55,7 @@ const HowItWorks = () => {
    ];
 
    return (
-      <div className="md:py-8 py-16 px-4">
+      <div className="md:py-8 md:mt-24 py-16 px-4">
          <h1 className="text-2xl font-suisse-intl text-center tracking-tight font-semibold">
             Get Started in{" "}
             <span className="text-[#f00a94] font-suisse-works">5</span> simple
