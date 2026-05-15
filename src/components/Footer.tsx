@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import Facebook from '../assets/icons/facebook.png'
-import Instagram from '../assets/icons/instagram.png'
-import Mail from '../assets/icons/gmail.png'
-import Maps from '../assets/icons/maps.png'
-import WhatsApp from '../assets/icons/whatsapp.png'
+import Facebook from "../assets/icons/facebook.png";
+import Instagram from "../assets/icons/instagram.png";
+import Mail from "../assets/icons/gmail.png";
+import Maps from "../assets/icons/maps.png";
+import WhatsApp from "../assets/icons/whatsapp.png";
 
 const Footer = () => {
    const currentYear = new Date().getFullYear();
@@ -32,7 +32,7 @@ const Footer = () => {
       {
          label: "WhatsApp",
          icon: WhatsApp,
-         to: "https://wa.me/+2347089636979",
+         to: "https://wa.me/+2349122454898",
       },
    ];
 

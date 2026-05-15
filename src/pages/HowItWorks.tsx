@@ -78,9 +78,37 @@ const HowItWorks = () => {
                   aria-label={isMuted ? "Unmute video" : "Mute video"}
                >
                   {isMuted ? (
-                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                     >
+                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                        <line x1="23" y1="9" x2="17" y2="15"></line>
+                        <line x1="17" y1="9" x2="23" y2="15"></line>
+                     </svg>
                   ) : (
-                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                     >
+                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                     </svg>
                   )}
                </button>
             </div>
@@ -110,17 +138,19 @@ const HowItWorks = () => {
                      </div>
                      {/* Text Column */}
                      <div className="pt-1">
-                        <h2 className="text-lg font-suisse-intl tracking-tight font-semibold">{step.title}</h2>
+                        <h2 className="text-lg font-suisse-intl tracking-tight font-semibold">
+                           {step.title}
+                        </h2>
                         <p className="text-sm font-suisse-intl tracking-tight text-gray-600 max-w-sm">
                            {step.description}
                         </p>
                      </div>
                   </div>
                ))}
-               
+
                <div className="mt-2 md:pr-16 flex justify-end">
                   <a
-                     href="https://wa.me/2347089636979?text=*WELCOME%20TO%20BEWA%20GLOBAL%20LOGISTICS*%0A%0A*Pickup%20Location%3A*%20%0A*Dropoff%20Location%3A*%20%0A*Cargo%20Weight%3A*%20%0A*Width%3A*%20%0A*Height%3A*%20%0A*Length%3A*%20%0A*Time%20to%20pickup%3A*%20"
+                     href="https://wa.me/2349122454898?text=*WELCOME%20TO%20BEWA%20GLOBAL%20LOGISTICS*%0A%0A*Pickup%20Location%3A*%20%0A*Dropoff%20Location%3A*%20%0A*Cargo%20Weight%3A*%20%0A*Width%3A*%20%0A*Height%3A*%20%0A*Length%3A*%20%0A*Time%20to%20pickup%3A*%20"
                      target="_blank"
                      rel="noreferrer"
                      className="group bg-[#f00a94] text-white rounded-md pl-4 hover:pr-2 pr-1 py-1 flex items-center gap-2 transition-all hover:bg-[#f00a94]/80 hover:-translate-y-0.5 shadow-sm hover:shadow-lg active:translate-y-0 w-max"

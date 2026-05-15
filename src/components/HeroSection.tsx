@@ -14,7 +14,7 @@ const HeroSection = () => {
          >
             <source src={heroVideo} type="video/mp4" />
          </video>
-         
+
          {/* Dark overlay for better text readability */}
          <div className="absolute inset-0 bg-black/60 z-0 pointer-events-none"></div>
 
@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className="flex-1 flex flex-col lg:flex-row justify-between items-stretch p-4 md:p-8 w-full max-w-7xl mx-auto gap-12 pt-24 lg:pt-20 pb-12">
                <div className="flex flex-col justify-end items-start w-full">
                   {/* <a 
-                     href="https://wa.me/2347089636979?text=*WELCOME%20TO%20BEWA%20GLOBAL%20LOGISTICS*%0A%0A*Pickup%20Location%3A*%20%0A*Dropoff%20Location%3A*%20%0A*Cargo%20Weight%3A*%20%0A*Width%3A*%20%0A*Height%3A*%20%0A*Length%3A*%20%0A*Time%20to%20pickup%3A*%20"
+                     href="https://wa.me/2349122454898?text=*WELCOME%20TO%20BEWA%20GLOBAL%20LOGISTICS*%0A%0A*Pickup%20Location%3A*%20%0A*Dropoff%20Location%3A*%20%0A*Cargo%20Weight%3A*%20%0A*Width%3A*%20%0A*Height%3A*%20%0A*Length%3A*%20%0A*Time%20to%20pickup%3A*%20"
                      target="_blank"
                      rel="noreferrer"
                      className="flex items-center bg-[#f00a94] rounded-full pl-6 pr-2 py-2 gap-6 mb-6 hover:scale-105 transition-all duration-300 group shadow-2xl cursor-pointer">

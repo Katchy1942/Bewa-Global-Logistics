@@ -17,13 +17,15 @@ const Closure = () => {
                {/* Left Side: Text and Button */}
                <div className="flex flex-col justify-center items-start w-full lg:max-w-xl">
                   <h2 className="text-[#ffff] text-3xl font-suisse-intl font-semibold tracking-tight leading-[1.05] mb-6">
-                     Ready to ship your cargo? Get a quote today and let us handle the rest.
+                     Ready to ship your cargo? Get a quote today and let us
+                     handle the rest.
                   </h2>
                   <p className="text-[#ffff]/70 font-suisse-intl mb-8 text-base">
-                     Experience hassle-free logistics and worldwide cargo services tailored to your specific needs.
+                     Experience hassle-free logistics and worldwide cargo
+                     services tailored to your specific needs.
                   </p>
-                  <a 
-                     href="https://wa.me/2347089636979?text=*WELCOME%20TO%20BEWA%20GLOBAL%20LOGISTICS*%0A%0A*Pickup%20Location%3A*%20%0A*Dropoff%20Location%3A*%20%0A*Cargo%20Weight%3A*%20%0A*Width%3A*%20%0A*Height%3A*%20%0A*Length%3A*%20%0A*Time%20to%20pickup%3A*%20"
+                  <a
+                     href="https://wa.me/2349122454898?text=*WELCOME%20TO%20BEWA%20GLOBAL%20LOGISTICS*%0A%0A*Pickup%20Location%3A*%20%0A*Dropoff%20Location%3A*%20%0A*Cargo%20Weight%3A*%20%0A*Width%3A*%20%0A*Height%3A*%20%0A*Length%3A*%20%0A*Time%20to%20pickup%3A*%20"
                      target="_blank"
                      rel="noreferrer"
                      className="flex items-center bg-[#f00a94] rounded-lg pl-6 pr-1 py-1 hover:cursor-pointer hover:pr-2 gap-6 transition-all duration-300 group shadow-2xl cursor-pointer"
@@ -32,7 +34,12 @@ const Closure = () => {
                         Ship with us
                      </span>
                      <div className="bg-[#ffff] rounded-md w-10 h-10 flex items-center justify-center transition-transform duration-300 group-hover:translate-x-1">
-                        <HugeiconsIcon icon={ArrowRight01Icon} size={17} className="text-black" strokeWidth={2.5} />
+                        <HugeiconsIcon
+                           icon={ArrowRight01Icon}
+                           size={17}
+                           className="text-black"
+                           strokeWidth={2.5}
+                        />
                      </div>
                   </a>
                </div>

@@ -95,7 +95,7 @@ const Sidebar = ({ isOpen, onClose, navItems }: SidebarProps) => {
 
             <div className="p-6 border-t border-gray-100">
                <a
-                  href="https://wa.me/2347089636979?text=*WELCOME%20TO%20BEWA%20GLOBAL%20LOGISTICS*%0A%0A*Pickup%20Location%3A*%20%0A*Dropoff%20Location%3A*%20%0A*Cargo%20Weight%3A*%20%0A*Width%3A*%20%0A*Height%3A*%20%0A*Length%3A*%20%0A*Time%20to%20pickup%3A*%20"
+                  href="https://wa.me/2349122454898?text=*WELCOME%20TO%20BEWA%20GLOBAL%20LOGISTICS*%0A%0A*Pickup%20Location%3A*%20%0A*Dropoff%20Location%3A*%20%0A*Cargo%20Weight%3A*%20%0A*Width%3A*%20%0A*Height%3A*%20%0A*Length%3A*%20%0A*Time%20to%20pickup%3A*%20"
                   target="_blank"
                   rel="noreferrer"
                   className="w-full bg-[#f00a94] text-white rounded-md py-3 flex items-center justify-center gap-2 transition-all hover:bg-[#f00a94]/90 shadow-md"
